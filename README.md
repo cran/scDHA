@@ -2,8 +2,8 @@
 The scDHA software package can perform cell segregation through unsupervised learning, dimension reduction and visualization, cell classification, and time-trajectory inference on single-cell RNA sequencing data. 
 
 # News
-- The package is now available on CRAN.
-- The backend changes from Tensorflow to Torch. Torch is called directly from R. Python environment is not required. 
+- The package is now available on [CRAN](https://cran.r-project.org/package=scDHA).
+- The machine learning framework is changed from Tensorflow to Torch. Torch can be called directly from R. Python environment is no longer required. 
 
 # How to install:
 - The package can be installed from this repository.

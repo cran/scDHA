@@ -1,7 +1,7 @@
 Package: scDHA
 Type: Package
 Title: Single-Cell Decomposition using Hierarchical Autoencoder
-Version: 1.1.0
+Version: 1.1.1
 Authors@R: c(
     person("Duc", "Tran", , "duct@nevada.unr.edu", role = c("aut", "cre")),
     person("Tin", "Nguyen", role = c("fnd"))
@@ -23,8 +23,8 @@ NeedsCompilation: yes
 VignetteBuilder: knitr
 URL: https://github.com/duct317/scDHA
 BugReports: https://github.com/duct317/scDHA/issues
-Packaged: 2021-06-08 17:05:32 UTC; dtran
+Packaged: 2021-06-10 16:17:09 UTC; dtran
 Author: Duc Tran [aut, cre],
   Tin Nguyen [fnd]
 Repository: CRAN
-Date/Publication: 2021-06-09 07:20:02 UTC
+Date/Publication: 2021-06-10 22:00:02 UTC

@@ -1,6 +1,6 @@
-8bbd0cbecd9301cc3b970d3249f8ff67 *DESCRIPTION
+10dd74bedd2d6d93900b2f7deded767a *DESCRIPTION
 2a0d6836a45e51f909221ef160e1ae6d *NAMESPACE
-4a6a33858223cc6937d900ddfae52497 *NEWS.md
+cfb13fb591a7d562df6d879c3febbc09 *NEWS.md
 3732925fdd63ba991371b7360b7e6aa4 *R/Analysis.R
 0546d07aba1d9afc96eec439e8fb573f *R/PG.R
 b38ac2e5e8806e27b260fece43a58a8e *R/RcppExports.R
@@ -9,7 +9,7 @@ a2d7cba9d70d990fa04d16d625bf2a35 *R/Support.R
 ad6e6a6838be1840ff7c027b75652386 *R/TorchSupport.R
 e885c15a4a5f44e4dc6666a8d04e3430 *R/scDHA.R
 f60da67452ae1e965686dce07c517a76 *R/wMetaC.R
-59ecd37bf3175516def7b2d5386f378c *README.md
+46871fdb3c0ae0713096ed40646d5023 *README.md
 01db5b94820beb4121c494d266173da8 *build/vignette.rds
 1d3a56e012505f68c090213649e47cab *data/Goolam.rda
 8dab0eb71f056f83de6d091192d7ec23 *data/Goolam_result.rda
@@ -30,6 +30,6 @@ e96d0b6e02c7007fe90bad7a18bae146 *man/scDHA.w.Rd
 354c00f761af358b595b6d774067250b *src/Makevars.win
 a3e9b4074886b3951b8ff01915e5ac2a *src/RcppExports.cpp
 649ffe697f472a66cbceb31f239506d3 *src/Support.cpp
-9f21ae12dd16ce23487bfae5975eee30 *tests/testthat.R
-04d0fa421544b4432963dc53dfe9b5c9 *tests/testthat/test-scDHA.R
+04ba56f16511009343a4d5133e20be47 *tests/testthat.R
+e7cdf1f1c8cb504ab50d75d3283c2dc3 *tests/testthat/test-scDHA.R
 b970a4a59e2520e6d3c9d85b474747d4 *vignettes/Example.Rmd
