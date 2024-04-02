@@ -1,4 +1,4 @@
-## ---- eval=FALSE--------------------------------------------------------------
+## ----eval=FALSE---------------------------------------------------------------
 #  #Install devtools:
 #  utils::install.packages('devtools')
 #  
@@ -14,10 +14,10 @@
 #  #libtorch can be installed using:
 #  torch::install_torch()
 
-## ---- eval=FALSE--------------------------------------------------------------
+## ----eval=FALSE---------------------------------------------------------------
 #  if (!requireNamespace("mclust", quietly = TRUE)) install.packages("mclust")
 
-## ---- eval=FALSE--------------------------------------------------------------
+## ----eval=FALSE---------------------------------------------------------------
 #  library(scDHA)
 #  #Load example data (Goolam dataset)
 #  data("Goolam")
@@ -28,7 +28,7 @@
 #  #Log transform the data
 #  data <- log2(data + 1)
 
-## ---- eval=FALSE--------------------------------------------------------------
+## ----eval=FALSE---------------------------------------------------------------
 #  #Generate clustering result, the input matrix has rows as samples and columns as genes
 #  result <- scDHA(data, seed = 1)
 #  
@@ -39,14 +39,14 @@
 #  ari <- round(mclust::adjustedRandIndex(cluster,label), 2)
 #  print(paste0("ARI = ", ari))
 
-## ---- eval=FALSE--------------------------------------------------------------
+## ----eval=FALSE---------------------------------------------------------------
 #  #Generate 2D representation, the input is the output from scDHA function
 #  result <- scDHA.vis(result, seed = 1)
 #  
 #  #Plot the representation of the dataset, different colors represent different cell types
 #  plot(result$pred, col=factor(label), xlab = "scDHA1", ylab = "scDHA2")
 
-## ---- eval=FALSE--------------------------------------------------------------
+## ----eval=FALSE---------------------------------------------------------------
 #  #Cell stage order in Goolam dataset
 #  cell.stages <- c("2cell", "4cell", "8cell", "16cell", "blast")
 #  
@@ -61,7 +61,7 @@
 #  axis(2, at=1:5,labels=cell.stages, las=2)
 #  text(x = 1, y = 4.5, labels = paste0("R2 = ", r2))
 
-## ---- eval=FALSE--------------------------------------------------------------
+## ----eval=FALSE---------------------------------------------------------------
 #  #Split data into training and testing sets
 #  set.seed(1)
 #  idx <- sample.int(nrow(data), size = round(nrow(data)*0.75))

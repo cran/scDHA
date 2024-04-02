@@ -1,4 +1,4 @@
-53a15b834ace181a200484d3cae19054 *DESCRIPTION
+aefaa1e7c53a8ab7ae12bb9b09c45366 *DESCRIPTION
 541cde140b329251f66e3bc0733780cb *NAMESPACE
 098c6063b5f3971d17c8e1b7b63f4973 *NEWS.md
 d14f79c765f113cab118d3fe1571a65c *R/Analysis.R
@@ -10,15 +10,14 @@ d41c594f688f92019ddea4c882ed497d *R/SC.R
 748f96a9c798e068d4f712b8c49f7138 *R/scDHA.R
 36554dc35838c01e9fb4ef582f24f18e *R/wMetaC.R
 0f6ef21fbd1d8b4d4e06ad587761461f *README.md
-4cdb7f75061d6a1e71d182cf5c6b2128 *build/vignette.rds
+9ee8defd5d96abc5327d61fe1ecebefd *build/vignette.rds
 c737eb6e549a62d34e5ffd26d3fe2df3 *data/Goolam.rda
 8dab0eb71f056f83de6d091192d7ec23 *data/Goolam_result.rda
-dfc5b303e0a5611980d31b669d2b92a9 *data/datalist
-002fe45f5b5017b1ecb469b278b321af *inst/CITATION
+9f80fc5a8fd4598bfa0590e852330503 *inst/CITATION
 2cc98cd5c546f862ee6caac07d2a6a99 *inst/COPYRIGHTS
-8674e2bef774060c298436ae829b2959 *inst/doc/Example.R
+38d5a77c7a7c17c0475cba13103e3dc1 *inst/doc/Example.R
 b970a4a59e2520e6d3c9d85b474747d4 *inst/doc/Example.Rmd
-e87590d871f84a7e27c62362401dd75b *inst/doc/Example.html
+c93041fc8a0737282e3380b51741ab0a *inst/doc/Example.html
 245601fc8183619769a7a97b9814c33a *man/Goolam.Rd
 5f9106f8361e2c310b5ad1875fdd1556 *man/Goolam_result.Rd
 9b4149d65ef1d814cf9f382567287ce4 *man/scDHA.Rd
@@ -27,7 +26,7 @@ af0683801e67d78d2300af93a11c848b *man/scDHA.class.Rd
 74b88e1bb19d5d2191486299beb8ef3c *man/scDHA.vis.Rd
 157dd04432121efa8fb999bf6c8f45c5 *src/Makevars
 7568cf48f148b930a6244e051e30135b *src/Makevars.win
-0113e73c75a85ddf623188489afc9b8d *src/RcppExports.cpp
+e78e2227ceacf3eee9bc04b5c8fe3099 *src/RcppExports.cpp
 86dc0f4b09a85fd477bb2abcf9c080c7 *src/Support.cpp
 04ba56f16511009343a4d5133e20be47 *tests/testthat.R
 866b4fb8e26859e57a682ff2114bc171 *tests/testthat/test-scDHA.R
