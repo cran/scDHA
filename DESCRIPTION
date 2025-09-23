@@ -1,11 +1,12 @@
 Package: scDHA
 Type: Package
 Title: Single-Cell Decomposition using Hierarchical Autoencoder
-Version: 1.2.2
+Version: 1.2.3
 Authors@R: c(
     person(given = "Ha", family = "Nguyen", email = "hvn0006@auburn.edu", role = c("cre")),
     person(given = "Duc", family = "Tran", email = "duct@nevada.unr.edu", role = c("aut")),
-    person(given = "Tin", family = "Nguyen", role = c("fnd"))
+    person(given = "Tin", family = "Nguyen", role = c("fnd")),
+    person(given = "Hao", family = "Chen", role = c("ctb"))
     )
 Maintainer: Ha Nguyen <hvn0006@auburn.edu>
 Description: Provides a fast and accurate pipeline for single-cell analyses. 
@@ -18,15 +19,16 @@ Imports: matrixStats, foreach, doParallel, igraph, Matrix, uwot,
         cluster, Rcpp, RcppParallel, RcppAnnoy, methods, torch (>=
         0.3.0), RhpcBLASctl, coro
 LinkingTo: Rcpp, RcppArmadillo, RcppParallel, RcppAnnoy
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.3
 Suggests: testthat, knitr, mclust
 NeedsCompilation: yes
 VignetteBuilder: knitr
 URL: https://github.com/duct317/scDHA
 BugReports: https://github.com/duct317/scDHA/issues
-Packaged: 2024-04-02 21:03:58 UTC; hanguyen
+Packaged: 2025-09-23 15:05:46 UTC; hanguyen
 Author: Ha Nguyen [cre],
   Duc Tran [aut],
-  Tin Nguyen [fnd]
+  Tin Nguyen [fnd],
+  Hao Chen [ctb]
 Repository: CRAN
-Date/Publication: 2024-04-02 22:42:03 UTC
+Date/Publication: 2025-09-23 22:40:03 UTC
